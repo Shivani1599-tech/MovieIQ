@@ -39,10 +39,6 @@ import joblib
 sns.set_style("whitegrid")
 
 """Load Dataset"""
-
-# Load Dataset
-from google.colab import files
-
 uploaded = files.upload()
 
 import pandas as pd
